@@ -6,7 +6,6 @@
     </head>
 
     <style>
-
         body {
             margin: 0px;
             border: 5px;
@@ -16,7 +15,7 @@
             color: white;
             vertical-align: center;
             background-image: linear-gradient(315deg, #2292be 0%, #0d324d 74%);
-            
+
         }
 
         h1 {
@@ -47,6 +46,25 @@
             padding-top: 10px;
         }
 
+        .button {
+            padding: 15px 25px;    
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: #0468aa;
+            border: none;
+            border-radius: 15px;
+        }
+
+        .button:hover {
+            background-color: #0099ff
+        }
+
+        .button:active {
+            background-color: #002e4d;
+            transform: translateY(4px);
+        }
     </style>
 
     <body>
@@ -55,43 +73,63 @@
 
                 <TD>
                     <figure>
-                    <img src="imagenes/plato.png"><a style="padding-left:20px;">RICE AND BEANS</a><br>
-                    <img src="imagenes/RICEANDBEANS.jpg" alt="HTML" style="width: 150px;height: 150px;border-radius:25%;padding-top: 10px;">
+                        <img src="imagenes/plato.png"><a style="padding-left:20px;">RICE AND BEANS</a>
+                        <img src="imagenes/RICEANDBEANS.jpg" alt="HTML"
+                            style="width: 150px;height: 150px;border-radius:25%;padding-top: 10px;">
                     </figure>
+                    <label for="riceb">Cantidad</label><br>
+                    <input type="text" id="riceb" name="riceb"><br>
+                    <button class="button">Agregar</button>
                 </TD>
 
                 <TD>
                     <figure>
-                    <img src="imagenes/plato.png"><a style="padding-left:20px;">ARROZ CON POLLO</a><br>
-                    <img src="imagenes/chicken-and-rice.jpg" alt="HTML" style="width: 150px;height: 150px;border-radius:25%;padding-top: 10px;">  
+                        <img src="imagenes/plato.png"><a style="padding-left:20px;">ARROZ CON POLLO</a>
+                        <img src="imagenes/chicken-and-rice.jpg" alt="HTML"
+                            style="width: 150px;height: 150px;border-radius:25%;padding-top: 10px;">
                     </figure>
+                    <label for="ricep">Cantidad</label><br>
+                    <input type="text" id="ricep" name="ricep"><br>
+                    <button class="button">Agregar</button>
                 </TD>
 
                 <TD>
                     <figure>
-                        <img src="imagenes/plato.png"><a style="padding-left:20px;">SOPA AZTECA</a><br>
-                        <img src="imagenes/SOPAAZTECA.jpg" alt="HTML" style="width: 150px;height: 150px;border-radius:25%;padding-top: 10px;">  
-                        </figure>
+                        <img src="imagenes/plato.png"><a style="padding-left:20px;">SOPA AZTECA</a>
+                        <img src="imagenes/SOPAAZTECA.jpg" alt="HTML"
+                            style="width: 150px;height: 150px;border-radius:25%;padding-top: 10px;">
+                    </figure>
+                    <label for="sopaa">Cantidad</label><br>
+                    <input type="text" id="sopaa" name="sopaa"><br>
+                    <button class="button">Agregar</button>
                 </TD>
 
                 <TD>
                     <figure>
-                        <img src="imagenes/plato.png"><a style="padding-left:20px;">OLLA DE CARNE</a><br>
-                        <img src="imagenes/OLLADECARNE.jpg" alt="HTML" style="width: 150px;height: 150px;border-radius:25%;padding-top: 10px;">  
-                        </figure>
+                        <img src="imagenes/plato.png"><a style="padding-left:20px;">OLLA DE CARNE</a>
+                        <img src="imagenes/OLLADECARNE.jpg" alt="HTML"
+                            style="width: 150px;height: 150px;border-radius:25%;padding-top: 10px;">
+                    </figure>
+                    <label for="sopac">Cantidad</label><br>
+                    <input type="text" id="sopac" name="sopac"><br>
+                    <button class="button">Agregar</button>
                 </TD>
 
                 <TD>
                     <figure>
-                        <img src="imagenes/plato.png"><a style="padding-left:20px;">HAMBURGUESA</a><br>
-                        <img src="imagenes/HAMBURGUESA.jpg" alt="HTML" style="width: 150px;height: 150px;border-radius:25%;padding-top: 10px;">  
-                        </figure>
+                        <img src="imagenes/plato.png"><a style="padding-left:20px;">HAMBURGUESA</a>
+                        <img src="imagenes/HAMBURGUESA.jpg" alt="HTML"
+                            style="width: 150px;height: 150px;border-radius:25%;padding-top: 10px;">
+                    </figure>
+                    <label for="hambur">Cantidad</label><br>
+                    <input type="text" id="hambur" name="hambur"><br>
+                    <button class="button">Agregar</button>
                 </TD>
 
             </TR>
-            
+
         </TABLE>
-        
+
     </body>
 
 </HTml:5>
