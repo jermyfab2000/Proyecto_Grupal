@@ -1,4 +1,7 @@
 .brand img{
     width: 175px;
     height: 175px;
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
 }
